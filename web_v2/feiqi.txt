@@ -1,0 +1,346 @@
+/* 照片的 3D 球形分布 */
+/* 18张第4层，x轴偏转0度，y轴20度一个 */
+/* .global img:nth-child(1) {
+    transform: rotateY(0deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(2) {
+    transform: rotateY(20deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(3) {
+    transform: rotateY(40deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(4) {
+    transform: rotateY(60deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(5) {
+    transform: rotateY(80deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(6) {
+    transform: rotateY(100deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(7) {
+    transform: rotateY(120deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(8) {
+    transform: rotateY(140deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(9) {
+    transform: rotateY(160deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(10) {
+    transform: rotateY(180deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(11) {
+    transform: rotateY(200deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(12) {
+    transform: rotateY(220deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(13) {
+    transform: rotateY(240deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(14) {
+    transform: rotateY(260deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(15) {
+    transform: rotateY(280deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(16) {
+    transform: rotateY(300deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(17) {
+    transform: rotateY(320deg) rotateX(0deg) translateZ(400px);
+}
+.global img:nth-child(18) {
+    transform: rotateY(340deg) rotateX(0deg) translateZ(400px);
+} */
+
+/* 试一下第三层 */
+/* .global img:nth-child(19) {
+    transform: rotateY(0deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(20) {
+    transform: rotateY(20deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(21) {
+    transform: rotateY(40deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(22) {
+    transform: rotateY(60deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(23) {
+    transform: rotateY(80deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(24) {
+    transform: rotateY(100deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(25) {
+    transform: rotateY(120deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(26) {
+    transform: rotateY(140deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(27) {
+    transform: rotateY(160deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(28) {
+    transform: rotateY(180deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(29) {
+    transform: rotateY(200deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(30) {
+    transform: rotateY(220deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(31) {
+    transform: rotateY(240deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(32) {
+    transform: rotateY(260deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(33) {
+    transform: rotateY(280deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(34) {
+    transform: rotateY(300deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(35) {
+    transform: rotateY(320deg) rotateX(20deg) translateZ(400px);
+}
+.global img:nth-child(36) {
+    transform: rotateY(340deg) rotateX(20deg) translateZ(400px);
+}  */
+
+/* 试一下第5层 ，18张*/
+/* .global img:nth-child(37) {
+    transform: rotateY(0deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(38) {
+    transform: rotateY(20deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(39) {
+    transform: rotateY(40deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(40) {
+    transform: rotateY(60deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(41) {
+    transform: rotateY(80deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(42) {
+    transform: rotateY(100deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(43) {
+    transform: rotateY(120deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(44) {
+    transform: rotateY(140deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(45) {
+    transform: rotateY(160deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(46) {
+    transform: rotateY(180deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(47) {
+    transform: rotateY(200deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(48) {
+    transform: rotateY(220deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(49) {
+    transform: rotateY(240deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(50) {
+    transform: rotateY(260deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(51) {
+    transform: rotateY(280deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(52) {
+    transform: rotateY(300deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(53) {
+    transform: rotateY(320deg) rotateX(-20deg) translateZ(400px);
+}
+.global img:nth-child(54) {
+    transform: rotateY(340deg) rotateX(-20deg) translateZ(400px);
+} */
+
+
+/* <img class="photo" src="./image/0.png">
+        <img class="photo" src="./image/1.png">
+        <img class="photo" src="./image/2.png">
+        <img class="photo" src="./image/3.png">
+        <img class="photo" src="./image/4.png">
+        <img class="photo" src="./image/5.png">
+        <img class="photo" src="./image/6.png">
+        <img class="photo" src="./image/7.png">
+        <img class="photo" src="./image/8.png">
+        <img class="photo" src="./image/9.png">
+        <img class="photo" src="./image/10.png">
+        <img class="photo" src="./image/11.png">
+        <img class="photo" src="./image/12.png">
+        <img class="photo" src="./image/13.png">
+        <img class="photo" src="./image/14.png">
+        <img class="photo" src="./image/15.png">
+        <img class="photo" src="./image/16.png">
+        <img class="photo" src="./image/17.png">
+        <img class="photo" src="./image/18.png">
+        <img class="photo" src="./image/19.png">
+        <img class="photo" src="./image/20.png">
+        <img class="photo" src="./image/21.png">
+        <img class="photo" src="./image/22.png">
+        <img class="photo" src="./image/23.png">
+        <img class="photo" src="./image/24.png">
+        <img class="photo" src="./image/25.png">
+        <img class="photo" src="./image/26.png">
+        <img class="photo" src="./image/27.png">
+        <img class="photo" src="./image/28.png">
+        <img class="photo" src="./image/29.png">
+        <img class="photo" src="./image/30.png">
+        <img class="photo" src="./image/31.png">
+        <img class="photo" src="./image/32.png">
+        <img class="photo" src="./image/33.png">
+        <img class="photo" src="./image/34.png">
+        <img class="photo" src="./image/35.png">
+        <img class="photo" src="./image/36.png">
+        <img class="photo" src="./image/37.png">
+        <img class="photo" src="./image/38.png">
+        <img class="photo" src="./image/39.png">
+        <img class="photo" src="./image/40.png">
+        <img class="photo" src="./image/41.png">
+        <img class="photo" src="./image/42.png">
+        <img class="photo" src="./image/43.png">
+        <img class="photo" src="./image/44.png">
+        <img class="photo" src="./image/45.png">
+        <img class="photo" src="./image/46.png">
+        <img class="photo" src="./image/47.png">
+        <img class="photo" src="./image/48.png">
+        <img class="photo" src="./image/49.png">
+        <img class="photo" src="./image/50.png">
+        <img class="photo" src="./image/51.png">
+        <img class="photo" src="./image/52.png">
+        <img class="photo" src="./image/53.png">
+        <img class="photo" src="./image/54.png">
+        <img class="photo" src="./image/55.png">
+        <img class="photo" src="./image/56.png">
+        <img class="photo" src="./image/57.png">
+        <img class="photo" src="./image/58.png">
+        <img class="photo" src="./image/59.png">
+        <img class="photo" src="./image/60.png">
+        <img class="photo" src="./image/61.png">
+        <img class="photo" src="./image/62.png">
+        <img class="photo" src="./image/63.png">
+        <img class="photo" src="./image/64.png">
+        <img class="photo" src="./image/65.png">
+        <img class="photo" src="./image/66.png">
+        <img class="photo" src="./image/67.png">
+        <img class="photo" src="./image/68.png">
+        <img class="photo" src="./image/69.png">
+        <img class="photo" src="./image/70.png">
+        <img class="photo" src="./image/71.png">
+        <img class="photo" src="./image/72.png">
+        <img class="photo" src="./image/73.png">
+        <img class="photo" src="./image/74.png">
+        <img class="photo" src="./image/75.png">
+        <img class="photo" src="./image/76.png">
+        <img class="photo" src="./image/77.png">
+        <img class="photo" src="./image/78.png">
+        <img class="photo" src="./image/79.png">
+        <img class="photo" src="./image/80.png">
+        <img class="photo" src="./image/81.png">
+        <img class="photo" src="./image/82.png">
+        <img class="photo" src="./image/83.png">
+        <img class="photo" src="./image/84.png">
+        <img class="photo" src="./image/85.png">
+        <img class="photo" src="./image/86.png">
+        <img class="photo" src="./image/87.png">
+        <img class="photo" src="./image/88.png">
+        <img class="photo" src="./image/89.png">
+        <img class="photo" src="./image/90.png">
+        <img class="photo" src="./image/91.png">
+        <img class="photo" src="./image/92.png">
+        <img class="photo" src="./image/93.png">
+        <img class="photo" src="./image/94.png">
+        <img class="photo" src="./image/95.png">
+        <img class="photo" src="./image/96.png">
+        <img class="photo" src="./image/97.png">
+        <img class="photo" src="./image/98.png">
+        <img class="photo" src="./image/99.png">
+        <img class="photo" src="./image/100.png">
+        <img class="photo" src="./image/101.png">
+        <img class="photo" src="./image/102.png">
+        <img class="photo" src="./image/103.png">
+        <img class="photo" src="./image/104.png">
+        <img class="photo" src="./image/105.png">
+        <img class="photo" src="./image/106.png">
+        <img class="photo" src="./image/107.png">
+        <img class="photo" src="./image/108.png">
+        <img class="photo" src="./image/109.png">
+        <img class="photo" src="./image/110.png">
+        <img class="photo" src="./image/111.png">
+        <img class="photo" src="./image/112.png">
+        <img class="photo" src="./image/113.png">
+        <img class="photo" src="./image/114.png">
+        <img class="photo" src="./image/115.png">
+        <img class="photo" src="./image/116.png">
+        <img class="photo" src="./image/117.png">
+        <img class="photo" src="./image/118.png">
+        <img class="photo" src="./image/119.png">
+        <img class="photo" src="./image/120.png">
+        <img class="photo" src="./image/121.png">
+        <img class="photo" src="./image/122.png">
+        <img class="photo" src="./image/123.png">
+        <img class="photo" src="./image/124.png">
+        <img class="photo" src="./image/125.png"> */
+
+/* 
+        // 动态加载 JS 文件的函数
+function loadScript(src) {
+    // 删除旧的 photo-ball 容器
+    // const photoBall = document.getElementById('photo-ball');
+    // if (photoBall) {
+    //     photoBall.remove(); // shanchu 
+    // }
+    // alert("已经删除photo-wall");
+
+    // // 在新脚本中（例如 one_shape.js）重新创建 photo-ball
+    // const photoBall1 = document.createElement('div');
+    // alert("已经创建div");
+    // photoBall1.id = 'photo-ball';  // 确保它有正确的 ID
+    // photoBall1.classList.add('global');  // 添加必要的样式类
+    // // 将 photo-ball 重新添加到 DOM 中
+    // document.body.appendChild(photoBall1);
+    // alert("已经创建photo-wall");
+
+    // 删除旧的 script 标签
+    const oldScript = document.getElementById('dynamicScript');
+    if (oldScript) {
+        oldScript.remove();
+    }
+
+    // 创建新的 script 标签
+    const script = document.createElement('script');
+    script.id = 'dynamicScript';  // 设置 ID，方便删除旧的 script 标签
+    script.src = src;
+    document.body.appendChild(script);   */
+/* } */
+
+/* // (function() {
+
+    // const photoContainer = document.getElementById('photo-ball');
+    // const img = document.createElement('img');
+    // img.classList.add('photo');
+    // img.src = `./image/0.png`;
+    // photoContainer.appendChild(img);
+    
+    
+    // const imgs = document.querySelectorAll('.global img'); // 获取所有图片
+    
+    // // 遍历所有图片，设置它们的位移
+    // imgs.forEach((img, index) => {
+    //     img.style.transform = `translate3d(0px, 0px, 0px)`;//让这一张图片位于正中间。不然旋转的时候不是绕着自己的对称轴
+    // });
+    
+    // })(); */

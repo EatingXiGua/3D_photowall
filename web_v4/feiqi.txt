@@ -1,0 +1,36 @@
+// 遍历所有图片，设置它们的位置
+imgs.forEach((img,index) => {
+    const randomFloatX = getRandomFloat(-scale, scale);
+    const randomFloatY = getRandomFloat(-scale, scale);
+    const randomFloatZ = getRandomFloat(-scale, scale);
+    // 随机生成动画的结束位置
+    const endX = getRandomFloat(-scale, scale);
+    const endY = getRandomFloat(-scale, scale);
+    const endZ = getRandomFloat(-scale, scale);
+
+    // 随机生成动画的持续时间和动画曲线
+    const duration = 30 + 's';  // 随机持续时间
+    //const timingFunction = ['ease', 'ease-in', 'ease-out', 'linear'][Math.floor(Math.random() * 4)];  // 随机动画曲线
+    const timingFunction = ['ease-in-out'];
+    // 初始位置
+    img.style.transform = `translate3d(${randomFloatX}px, ${randomFloatY}px, ${randomFloatZ}px)`;
+
+    // 为每张图片添加独立的动画
+    img.style.animation = `moveEffect${index} ${duration} ${timingFunction} infinite`;
+
+    // 动画的 @keyframes 定义
+    const styleSheet = document.styleSheets[0];
+    styleSheet.insertRule(`
+        @keyframes moveEffect${index} {
+            0% {
+                transform: translate3d(${randomFloatX}px, ${randomFloatY}px, ${randomFloatZ}px);
+            }
+            50% {
+                transform: translate3d(${endX}px, ${endY}px, ${endZ}px);
+            }
+            100% {
+                transform: translate3d(${randomFloatX}px, ${randomFloatY}px, ${randomFloatZ}px);
+            }
+        }
+    `, styleSheet.cssRules.length);
+});

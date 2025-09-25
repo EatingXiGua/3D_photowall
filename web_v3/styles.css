@@ -1,0 +1,89 @@
+/* 页面样式 */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #150101;
+    overflow: hidden;
+}
+
+/* 3D 照片容器，15s绕Y轴旋转一圈 */
+#photo-ball {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform-style: preserve-3d;   
+    animation: rotate_Y 15s infinite linear; /* 调用旋转函数 */
+}
+
+/* 指针悬停照片样式 */
+.photo:hover {
+    box-shadow: -10px 0px 12px gray,
+    10px 0px 12px gray,
+    0 -10px 12px gray,
+    0 10px 12px gray;
+    scale: 1.05;
+}
+
+
+/* 单个照片样式 */
+.photo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 46%;
+    top: 46%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    border: 3px solid #3498db; 
+    border: none;
+    border-radius: 4px;
+    box-shadow: -4px 0px 12px gray,
+    4px 0px 12px gray,
+    0 -4px 12px gray,
+    0 4px 12px gray;
+    transition: transform 1.5s ease-in-out; /* 切换样式时，照片的变化速度 */
+    animation: fadeInScale 3s ease-in-out infinite;  /* 调用函数，改变透明度 */
+}
+
+#changebutton {
+    position: absolute;
+    top: 95%;
+    left: 90%;
+}
+.cbt{
+    background-color: cadetblue;
+}
+.cbt:hover {
+    background: linear-gradient(145deg, #288281, #6e7dff); /* 悬停时背景渐变反转 */
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3), -8px -8px 12px rgba(255, 255, 255, 0.7); /* 更强的阴影效果 */
+    transform: translateY(-3px); /* 向上浮动的效果 */
+}
+
+/* 球体旋转动画 */
+@keyframes rotate_Y {
+    from {
+        transform: rotateX(-15deg) rotateY(0deg);
+    }
+    to {
+        transform: rotateX(-15deg) rotateY(360deg);
+    }
+}
+/* 照片透明度变化函数 */
+@keyframes fadeInScale {
+    0% {
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
